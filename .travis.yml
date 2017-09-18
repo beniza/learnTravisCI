@@ -1,7 +1,10 @@
 language: python
 
+install: "pip install pylint"
+
 python:
-  - "2.7"
   - "3.5"
   
-script: trial my-calc
+script:
+  - pylint my-calc 
+  - trial my-calc 
