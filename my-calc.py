@@ -1,6 +1,8 @@
 # Calculator project for collaboration
-a = raw_input("Enter the first number :")
-b = raw_input("\nEnter the second Number :")
+# a = raw_input("Enter the first number :")
+# b = raw_input("\nEnter the second Number :")
+a = 10
+b = 2
 
 def addition(x, y):
 	return a + b
@@ -23,4 +25,4 @@ def subtraction(a, b):
 def mod(a,b):
 	return (a%b)
 
-print "Calculator"
+print "Calculator App"
