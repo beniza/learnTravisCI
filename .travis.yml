@@ -1,7 +1,11 @@
 language: python
 
+install: "pip install nose pylint"
+
 python:
   - "2.7"
   - "3.5"
   
-script: trial my-calc
+script:
+  - "nosetests && pylint" 
+  - trial my-calc 
