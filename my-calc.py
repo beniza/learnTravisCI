@@ -23,4 +23,4 @@ def subtraction(a, b):
 def mod(a,b):
 	return (a%b)
 
-print "Calculator"
+print "Calculator App"
